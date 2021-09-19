@@ -33,6 +33,7 @@ router.get('/login', (req: Request, res: Response) => {
   )
 });
 
+
 router.post('/login', (req: RequestWithBody, res: Response) => {
   const {email, password} = req.body;
 
